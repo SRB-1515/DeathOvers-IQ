@@ -1,0 +1,59 @@
+{
+  "best_model": "Ridge Regression",
+  "residual_std": 11.15,
+  "metrics": {
+    "Baselines": {
+      "Current Run Rate Projection": {
+        "MAE": 10.2,
+        "RMSE": 13.46,
+        "R2": 0.858
+      },
+      "Historical Average Death Addition": {
+        "MAE": 9.7,
+        "RMSE": 12.88,
+        "R2": 0.87
+      }
+    },
+    "Candidate Models": {
+      "Ridge Regression": {
+        "Train MAE": 7.86,
+        "Test MAE": 8.68,
+        "Test RMSE": 11.37,
+        "Test R2": 0.899
+      },
+      "Random Forest": {
+        "Train MAE": 4.56,
+        "Test MAE": 9.33,
+        "Test RMSE": 12.61,
+        "Test R2": 0.875
+      },
+      "HistGradientBoosting": {
+        "Train MAE": 5.84,
+        "Test MAE": 10.14,
+        "Test RMSE": 13.84,
+        "Test R2": 0.85
+      }
+    }
+  },
+  "top_feature_importance": {
+    "crr_at_checkpoint": 16.8395,
+    "score_at_checkpoint": 10.5281,
+    "bowling_team_Kochi Tuskers Kerala": 6.3783,
+    "venue_M.Chinnaswamy Stadium": 5.2895,
+    "venue_Vidarbha Cricket Association Stadium, Jamtha": 5.247,
+    "venue_Green Park": 4.5995,
+    "venue_JSCA International Stadium Complex": 4.4923,
+    "batting_team_Lucknow Super Giants": 4.351,
+    "bowling_team_Deccan Chargers": 3.9605,
+    "venue_De Beers Diamond Oval": 3.5094,
+    "batting_team_Kochi Tuskers Kerala": 3.4274,
+    "venue_St George's Park": 3.3797,
+    "batting_team_Mumbai Indians": 2.9655,
+    "bowling_team_Rising Pune Supergiant": 2.9126,
+    "venue_HPCA Stadium, Dharamsala": 2.8805
+  },
+  "train_samples": 5025,
+  "test_samples": 1060,
+  "train_seasons": "2008-2023",
+  "test_seasons": "2024-2026"
+}
